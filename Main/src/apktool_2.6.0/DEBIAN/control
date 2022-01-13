@@ -1,0 +1,9 @@
+Package: apktool
+Version: 2.6.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 19500
+Maintainer: Rhythm113
+Description: Unofficial APKTOOL pkg for termux
