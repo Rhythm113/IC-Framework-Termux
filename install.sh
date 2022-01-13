@@ -1,7 +1,7 @@
-#Coming Soon !
-
+#BETA REPO OUT !
 
 #To BE Written..
 #!usr/bin/bash
-echo "Stay Tuned !"
-echo "Let us Know what Should Come First.."
+echo "Welcome to IC-Beta"
+echo "Installing Repo.."
+curl -s https://raw.githubusercontent.com/Rhythm113/IC-Termux/main/repo.sh | bash
