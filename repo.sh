@@ -17,9 +17,9 @@ echo "Downloading PGP & Adding.."
 curl -L https://packagecloud.io/ic009/ic-beta/gpgkey | apt-key add -
 
 #Config
-touch /etc/apt/sources.list.d/ic009_ic-beta.list
-echo "deb https://packagecloud.io/ic009/ic-beta/ubuntu/ jammy main" >> /etc/apt/sources.list.d/ic009_ic-beta.list
-echo "deb-src https://packagecloud.io/ic009/ic-beta/ubuntu/ jammy main" >> /etc/apt/sources.list.d/ic009_ic-beta.list
+touch $PREFIX/etc/apt/sources.list.d/ic009_ic-beta.list
+echo "deb https://packagecloud.io/ic009/ic-beta/ubuntu/ jammy main" >>  $PREFIX/etc/apt/sources.list.d/ic009_ic-beta.list
+echo "deb-src https://packagecloud.io/ic009/ic-beta/ubuntu/ jammy main" >>  $PREFIX/etc/apt/sources.list.d/ic009_ic-beta.list
 
 #Refresh Cache
 apt-get update -y
