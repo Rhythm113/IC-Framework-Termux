@@ -1,3 +1,4 @@
+#Original Author : https://github.com/AL-AlamySploit
 #!/bin/bash
 echo "Ngrok Installer by IC-Termux"
 echo "Detecting Device CPU..."
