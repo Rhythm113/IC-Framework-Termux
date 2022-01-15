@@ -8,13 +8,13 @@ A platform for termux including all the popular tools repos & Hacks ...
 
 Beta is OUT & Running.
 
-#Issues :
+# Issues :
 
 Repo.sh
 
 Install.sh
 
-#Currently Added :
+# Currently Added :
 
 Apktool
 
