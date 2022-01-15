@@ -1,0 +1,10 @@
+Package: apk-sign-killer-beta
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 3985
+Maintainer: Rhythm113
+Description: APK Signature killer v1.0 check manual for help..
+ 

@@ -1,0 +1,5 @@
+#Wrapper Script Open Source 
+#!/bin/bash
+java &> /dev/null || echo "java not installed install it first" && exit
+echo "If You want to modify signature data or import custom alies run sign-config"
+java -jar /data/data/com.termux/files/usr/bin/sig/main.jar

@@ -1,0 +1,9 @@
+HI This is a Signature Killer from Github Runs on java
+
+This tool only works for applications whose signatures are only verified by PackageManager.getPackageInfo().signatures .
+
+Just RENAME your apk file to src.apk & Put to /data/data/com.termux/files/home/ or $HOME in non root mode then run start-kill output will be renamed as out.apk
+
+if you want to edit configs run  "sign-config"
+
+More Update will come soon stay tuned !

@@ -1,0 +1,4 @@
+#Config Locator Open Source
+#!/bin/bash
+echo"Opening Via nano..'
+nano /data/data/com.termux/files/usr/bin/sig/config.txt

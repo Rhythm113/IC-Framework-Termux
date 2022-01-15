@@ -1,0 +1,15 @@
+# 获取签名信息 / Get signature information
+apk.signed=/data/data/com.termux/files/home/src.apk
+
+# 要处理的APK / APK to Kill
+apk.src=/data/data/com.termux/files/home/src.apk
+
+# 写出的APK名 / Output
+apk.out=/data/data/com.termux/files/home/out.apk
+
+# 签名配置 / Signature configuration
+sign.enable=true
+sign.file=test.keystore
+sign.password=123456
+sign.alias=user
+sign.aliasPassword=654321
