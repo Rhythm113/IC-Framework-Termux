@@ -2,7 +2,7 @@
 #Installer Script by @Rhythm113
 
 #!/bin/bash
-
+echo "repo has issues please come later :( " && exit
 echo "Updating System MUST.."
 #Refresh Cache
 apt-get update -y
